@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-asm",
+  "version": "0.0.2",
+  "description": "my own config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexscheelmeyer/eslint-config-asm.git"
+  },
+  "author": "Alex Scheel Meyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexscheelmeyer/eslint-config-asm/issues"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "10.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.11.1 || ^8.44.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

@@ -42,6 +42,9 @@ module.exports = {
       "exports": "ignore",
       "functions": "ignore",
     }],
-    "no-underscore-dangle": 0            // useful for indicating "private"
+    "no-underscore-dangle": 0,           // useful for indicating "private"
+    "import/extensions": [2, "ignorePackages"],
+    "import/prefer-default-export": "off",
+    "max-len": 0
   }
 };
